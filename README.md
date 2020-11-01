@@ -74,7 +74,7 @@ The translation origin of the model, as well as its orientation, is implied from
 
 The height of the individual features (e.g. buildings) within the batched models tile models has already been adjusted match the elevation model. However, each separate feature from CDB is encoded in the model as a separate node to facilitate re-adjusting it to new elevation.
 
-== Textures table
+## Textures table
 
 The textures table has the following fields:
 
