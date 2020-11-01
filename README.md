@@ -1,6 +1,6 @@
 # A GeoPackage extension for 3D Models
 
-Extension name: *`gpkgext-3dmodels`*
+Extension name: ***`gpkgext-3dmodels`***
 
 This is a draft extension for storing 3D models inside GeoPackages.
 Rows are added to the `gpkgext_extensions` table to identify all tables set up for this extension.
