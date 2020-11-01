@@ -63,7 +63,7 @@ CREATE TABLE attributes_Trees (
    `model::scale` REAL)
 ```
 
-=# B) Batched 3D Models tiles
+## B) Batched 3D Models tiles
 
 In this approach, best suited for geo-specific models, a single model covers a whole tile, batching all 3D models from the data layer found within that tile, and is stored in a tiles table much like raster or vector tiles (as a glTF blob in the `tile_data` field).
 It is closer to the 3D Tiles / One World Terrain approach, and could potentially also combine both 3D Terrain and 3D Models (though ideally keeping them as distinct nodes within the model). Such an approach may facilitate transition between CDBX and OWT.
@@ -108,3 +108,5 @@ id  name   width  height  format  texture
 3   2.png  512    512     png     �PNG
 4   2.png  256    256     png     �PNG
 ```
+
+See also the https://github.com/sofwerx/cdb2-eng-report/[CDB X Discussion Paper] describing the experiments in which this extension was developed, along with the resulting sample GeoPackages.
