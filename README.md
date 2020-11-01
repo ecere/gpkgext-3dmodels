@@ -64,6 +64,7 @@ CREATE TABLE attributes_Trees (
 ```
 
 See an [example GeoPackage](https://portal.ogc.org/files/?artifact_id=95351) using reference points as Mapbox Vector Tiles and glTF models
+
 See an [example GeoPackage](https://portal.ogc.org/files/?artifact_id=95340) using reference points as GNOSIS Map Tiles and E3D models
 
 ## B) Batched 3D Models tiles
@@ -78,6 +79,7 @@ The translation origin of the model, as well as its orientation, is implied from
 The height of the individual features (e.g. buildings) within the batched models tile models has already been adjusted match the elevation model. However, each separate feature from CDB is encoded in the model as a separate node to facilitate re-adjusting it to new elevation.
 
 See an [example GeoPackage](https://portal.ogc.org/files/?artifact_id=95337) using batched 3D models encoded as glTF
+
 See an [example GeoPackage](https://portal.ogc.org/files/?artifact_id=95334) using batched 3D models encoded as E3D
 
 ## Textures table
