@@ -109,4 +109,4 @@ id  name   width  height  format  texture
 4   2.png  256    256     png     �PNG
 ```
 
-See also the https://github.com/sofwerx/cdb2-eng-report/[CDB X Discussion Paper] describing the experiments in which this extension was developed, along with the resulting sample GeoPackages.
+See also the [CDB X Discussion Paper](https://github.com/sofwerx/cdb2-eng-report/) describing the experiments in which this extension was developed, along with the resulting sample GeoPackages.
