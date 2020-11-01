@@ -63,6 +63,9 @@ CREATE TABLE attributes_Trees (
    `model::scale` REAL)
 ```
 
+See an [example GeoPackage](https://portal.ogc.org/files/?artifact_id=95351) using reference points as Mapbox Vector Tiles and glTF models
+See an [example GeoPackage](https://portal.ogc.org/files/?artifact_id=95340) using reference points as GNOSIS Map Tiles and E3D models
+
 ## B) Batched 3D Models tiles
 
 In this approach, best suited for geo-specific models, a single model covers a whole tile, batching all 3D models from the data layer found within that tile, and is stored in a tiles table much like raster or vector tiles (as a glTF blob in the `tile_data` field).
@@ -73,6 +76,9 @@ Because GeoPackage does not define a generic mechanism to specify the encoding o
 The translation origin of the model, as well as its orientation, is implied from the center of the tile (from the tile matrix / tile matrix set) for which it defined. The model is defined in the 3D cartesian space where (0, 0, 0) lies at that center, sitting directly on the WGS84 ellipsoid, and oriented so that by default it appears upright with its X axis pointing due East, its Z axis pointing North, and its Y axis pointing away from the center of the Earth. In other words, it would be equivalent to having a single point situated at the center of the tile in the referenced 3D points approach.
 
 The height of the individual features (e.g. buildings) within the batched models tile models has already been adjusted match the elevation model. However, each separate feature from CDB is encoded in the model as a separate node to facilitate re-adjusting it to new elevation.
+
+See an [example GeoPackage](https://portal.ogc.org/files/?artifact_id=95337) using batched 3D models encoded as glTF
+See an [example GeoPackage](https://portal.ogc.org/files/?artifact_id=95334) using batched 3D models encoded as E3D
 
 ## Textures table
 
