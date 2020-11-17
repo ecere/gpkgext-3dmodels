@@ -117,4 +117,4 @@ id  name   width  height  format  texture
 4   2.png  256    256     png     �PNG
 ```
 
-See also the [CDB X Discussion Paper](https://github.com/jerstlouis/cdb2-eng-report/blob/ecereExperiments/11-tiling-coverages.adoc#tiled-3d-models) describing the experiments in which this extension was developed, along with the resulting sample GeoPackages.
+See also the [CDB X Discussion Paper](https://github.com/sofwerx/cdb2-eng-report/blob/master/11-tiling-coverages.adoc#tiled-3d-models) describing the experiments in which this extension was developed, along with the resulting sample GeoPackages.
